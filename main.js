@@ -200,7 +200,12 @@ productList.push(
 </div>*/
 
 function renderCards(arr){
+
+    
+
+    
     for(product of productList){
+
 
         /*Create Elements*/ 
     
@@ -213,6 +218,7 @@ function renderCards(arr){
         const productFigure = d.createElement('figure')
         const figureImg = d.createElement('img')
         productCard.classList.add('product-card')
+        
         productImg.setAttribute('src', product.img)
         productInfo.classList.add('product-info')
         productPrice.innerText = '$' + product.price
@@ -236,6 +242,29 @@ function renderCards(arr){
 
         productImg.addEventListener('click', openProductDetail)
     }
+
+
+
+// Selecciona todos los elementos con la clase "product-card"
+const productCards = d.querySelectorAll('.product-card');
+console.log(productCards)
+
+// Itera a través de los elementos "product-card"
+for (let i = 0; i < productCards.length; i++) {
+    // Almacena la tarjeta actual en la variable "item"
+    const item = productCards[i];
+    console.log(item)
+
+    // Genera el nombre de la clase basado en el índice, por ejemplo, "card-1", "card-2", etc.
+    const className = `card-${i + 1}`;
+    console.log(className)
+
+    // Agrega la clase generada a la tarjeta actual
+    item.classList.add(className);
+}
+
+
+    
 
 
 }

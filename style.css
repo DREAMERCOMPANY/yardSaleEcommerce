@@ -312,7 +312,169 @@
   }
   .product-card {
     width: 240px;
+    
   }
+
+  .card-1 {
+    animation: cardOne 1.5s ease-out 0.2s forwards;
+    transform: translateX(-340px);
+    opacity: 0;
+  }
+
+  @keyframes cardOne{
+    from{
+      transform: translateX(-340px);
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+  .card-2 {
+    animation: cardTwo 1s ease-out 1.8s forwards;
+    transform: translateX(-600px);
+    opacity: 0;
+  }
+
+  @keyframes cardTwo{
+    from{
+      transform: translateX(-600px);
+      opacity: 0;
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+  .card-3 {
+    animation: cardThree 1.5s ease-out 2.8s forwards;
+    transform: translateX(-870px);
+    opacity: 0;
+  }
+
+  @keyframes cardThree{
+    from{
+      transform: translateX(-870px);
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+  .card-4 {
+    animation: cardFour 2s ease-out 4.2s forwards;
+    transform: translateX(-1140px);
+    opacity: 0;
+  }
+
+  @keyframes cardFour{
+    from{
+      transform: translateX(-1140px);
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+  .card-5 {
+    animation: cardFive 1.5s ease-out 6s forwards;
+    transform: translateX(-340px);
+    opacity: 0;
+  }
+
+  @keyframes cardFive{
+    from{
+      transform: translateX(-340px);
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+
+  .card-6 {
+    animation: cardSix 1.5s ease-out 7.5s forwards;
+    transform: translateX(-600px);
+    opacity: 0;
+  }
+
+  @keyframes cardSix{
+    from{
+      transform: translateX(-600px);
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+  .card-7 {
+    animation: cardSeven 1.5s ease-out 8.8s forwards;
+    transform: translateX(-870px);
+    opacity: 0;
+  }
+
+  @keyframes cardSeven{
+    from{
+      transform: translateX(-870px);
+
+    }
+
+    to{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+
+  
+ 
+
+  
+  
+
+  
+
+
+
+ 
+
+ 
+
+ 
+
+  
+
+  
+
+  
+
+
+ 
   .product-card img {
     cursor: pointer;
     width: 240px;
